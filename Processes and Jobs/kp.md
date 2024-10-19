@@ -15,3 +15,5 @@ hacker@processes~killing-processes:~$ /challenge/run
 Great job! Here is your payment:
 pwn.college{o-m4f6-DJD4gGkPvIOn3awXBANW.dJDN4QDLzATN0czW}
 ```
+
+i used the ps -ef command to find all running programs and located the pid of /dont_run and then used the kill to terminate that particular program and executed /challenge/run
